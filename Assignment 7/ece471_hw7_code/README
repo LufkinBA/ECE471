@@ -1,0 +1,32 @@
+ECE471 Fall 2021 -- HW7
+
+Name: Blake Lufkin
+
+The number (written in sharpie) on the bag containing
+your MCP3008/TMP36: 14
+
+
+4. Describe your something cool:
+	Displays a warning message on prompt if the temperature exceeds a certain
+	value
+
+5. a.	This is a hard real-time task as if the deadline is missed,
+		people may die
+   b.	This is a soft real-time task as the result is less useful as time
+		passes but poses no real threat or loss of data.
+   c.	This is a Firm real-time task as if the refresh rate is any lower then
+		frames might be missed or data lost.
+   d.	I2C is less hardware, i.e. less wires required
+   e.	Less power consumption as there are no pull up resistors required
+   f.	It would not work out of the box as the long cable would provide over 
+		10nF of a capacitive load and would cause oscillation.
+   g.	This could be a problem if Linux had to do anything in the background.
+		It can be done but the timing couldnt be gauranteed all the time
+
+6. a.	It seems to output nothing
+   b.	write error: No space left on device
+   c.	Could be usefull if you want to transmit all zeros without typing
+		that in code.
+   d.	without checking, I think this has a collection of random digits/characters
+
+

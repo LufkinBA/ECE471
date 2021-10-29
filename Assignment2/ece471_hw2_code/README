@@ -1,0 +1,17 @@
+ECE471 Fall 2021, HW#2
+
+Name: Blake Lufkin
+
+Describe your "Something Cool":
+I made each line output a different color using nested for loops and fun indexing
+
+Answers to homework questions in Part7:
+
+a. man ls  (give the man page for ls)
+
+b.        -a, --all
+              do not ignore entries starting with .
+c. It can easily interface with hardware with a low overhead.
+
+d. I used a monitor and keyboard for the longest time and last semester I set up VNC viewer to have 
+remote access to my pi. 

@@ -1,0 +1,28 @@
+ECE 471 Fall 2021 -- Homework 4
+
+Name: Blake Lufkin
+
+
+Briefly describe what you did for something cool (if applicable):
+
+
+Answers to Question #5:
+
+a. a busy loop could have varying times depending on 
+	how fast your system is
+
+b. Then you dont have to directly communicate with the hardware
+	and code in a "bare-metal" style
+
+c. I used the buffer method that will wait until it sees 32 1 inputs or
+	32 0 inputs before it registers that the button was pressed
+
+Answers to Question #6:
+
+a. Machine type: Raspberry Pi 4 Model B Rev 1.1
+
+b. Kernel version: Linux raspberrypi 4.19.97-v7l+ #1294 SMP Thu Jan 30 13:21:14 GMT 2020 armv7l GNU/Linux
+
+c. Free Disk space: 5.8G available
+ 
+d. -h means human readable 

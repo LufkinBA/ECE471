@@ -1,0 +1,24 @@
+ECE471 HW5 -- Fall 2021
+
+Name: Blake Lufkin
+
+Please report the number (1-60) written on the side of your display: 48
+
+
+7.	Describe what your "something cool" code does
+It shows the first 4 letters of my first name, then scrolls to the last letter
+
+8.
+ a). The ARM chip is asleep, then the VideoCore GPU boots up and runs
+	the bootcode.bin then that runs the start.elf. This is unusual for an
+	ARM chip.
+ b). bootloader 
+ c). the bootloader can only read FAT filesystems. Legacy thing?
+ d). because 0-2 are reserved addresses 
+
+9.
+ a). 125 lines
+ b). 177 lines
+
+
+

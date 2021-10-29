@@ -1,0 +1,45 @@
+ECE471 Fall 2021 -- Homework #3
+
+Name: Blake Lufkin
+
+
+3c: size of ARM32 function: (66696 - 66588) = 108 bytes
+
+3d: size of THUMB2 function:(66662 - 66580) = 82 bytes
+
+3e: They are different, simple instructions like sub and cmp are only 
+4 bytes rather than 8 bytes  
+
+
+4a the C executable is 5544 bytes and the thumb2 executable is 5548 bytes
+
+4b the static version is significantly bigger at 497112 bytes
+
+4c the asm version is only 1308 bytes before a strip and 536 after
+
+4d In a space constrained system, assembly code is the way to go as it
+has much less overhead and can be contained in files a 10th of the size of
+the arm32 or thumb2 executables.
+
+4e I think the C code is much easier to write than the assembly one, mostly
+due to lack of experience with the assembly language. 
+
+5f: code that caused the crash
+9			ch=array[i];
+
+
+5h: assembly code at the crash
+=> 0x0001042c <+36>:	ldrb	r3, [r3]
+
+
+
+5i: cause of the crash
+the ch=array[i] was attempting to access a the first character in a NULL
+and since that is not a string, it segfaulted as it was out of bounds.
+
+
+6: describe your something cool
+made the algorithm print in hex rather than decimal
+
+7a: September 3rd 1752 was the date of the Gregorian Reformation and 11 days were eliminated to make up for the lack of leap days that had accumulated over time. This is reflected in the callendar date. 
+Though, some say that it occured due to 12 bytes getting overwritten by a malloc'd variable and they used this as an excuse to make the bug a feature.  
